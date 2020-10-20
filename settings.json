@@ -1,12 +1,12 @@
 {
     "workbench.colorTheme": "Dark hacker theme",
-    "window.zoomLevel": 1,
+
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
     "editor.renderIndentGuides": true,
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "editor.fontFamily": "'Fira Code'",
+    "editor.fontFamily": "Dank Mono",
     "editor.fontLigatures": true,
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.colorCustomizations": {
@@ -47,5 +47,6 @@
             "welcomePage.buttonBackground": "#252525",
             "textLink.foreground": "#51ff00"
         }
-    }
+    },
+    "window.zoomLevel": 0
 }
