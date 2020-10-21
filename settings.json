@@ -1,12 +1,15 @@
 {
     "workbench.colorTheme": "Dark hacker theme",
-
     "explorer.confirmDelete": false,
     "editor.wordWrap": "on",
     "editor.renderIndentGuides": true,
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontFamily": "Dank Mono",
+    "BracketHighlighter.textColor": "#ffac0f",
+    "BracketHighlighter.border": "1px solid rgba(240, 240, 240, 0.418)",
+    "BracketHighlighter.useBrackets": true,
+    "BracketHighlighter.textDecoration": "italic",
     "editor.fontLigatures": true,
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.colorCustomizations": {
@@ -29,9 +32,9 @@
             "activityBar.background": "#000000",
             "activityBar.foreground": "#ffffff",
             "minimap.findMatchHighlight": "#a6ff00",
-            "minimap.errorHighlight": "#ff0000",  
-            "minimap.warningHighlight": "#ff6600", 
-            "minimap.selectionHighlight":"#00e1ff",                                                     
+            "minimap.errorHighlight": "#ff0000",
+            "minimap.warningHighlight": "#ff6600",
+            "minimap.selectionHighlight": "#00e1ff",
             "minimap.background": "#0c0c0cd0",
             "editorGroup.border": "#161616",
             "editorGroup.dropBackground": "#00b37d46",
@@ -48,5 +51,14 @@
             "textLink.foreground": "#51ff00"
         }
     },
-    "window.zoomLevel": 0
+    "BracketHighlighter.backgroundColor": "#111111",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 15,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "notebook.kernelProviderAssociations": [
+
+    ]
 }
