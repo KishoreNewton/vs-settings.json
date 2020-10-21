@@ -7,9 +7,9 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontFamily": "Dank Mono",
     "BracketHighlighter.textColor": "#ffac0f",
-    "BracketHighlighter.border": "1px solid rgba(240, 240, 240, 0.418)",
+    "BracketHighlighter.border": "0.7px solid rgba(240, 240, 240, 0.418)",
     "BracketHighlighter.useBrackets": true,
-    "BracketHighlighter.textDecoration": "italic",
+    "BracketHighlighter.fontStyle": "italic",
     "editor.fontLigatures": true,
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.colorCustomizations": {
@@ -60,5 +60,8 @@
     "git.autofetch": true,
     "notebook.kernelProviderAssociations": [
 
-    ]
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "Wscats.qf"
+    }
 }
