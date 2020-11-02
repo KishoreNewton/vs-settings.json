@@ -9,7 +9,7 @@
     "BracketHighlighter.textColor": "#ffac0f",
     "BracketHighlighter.border": "0.7px solid rgba(240, 240, 240, 0.418)",
     "BracketHighlighter.useBrackets": true,
-    "BracketHighlighter.fontStyle": "italic",
+    // "BracketHighlighter.fontStyle": "italic",
     "editor.fontLigatures": true,
     "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.colorCustomizations": {
@@ -54,14 +54,5 @@
     "BracketHighlighter.backgroundColor": "#111111",
     "window.zoomLevel": 0,
     "editor.fontSize": 15,
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "git.autofetch": true,
-    "notebook.kernelProviderAssociations": [
-
-    ],
-    "[jsonc]": {
-        "editor.defaultFormatter": "Wscats.qf"
-    }
+    "git.autofetch": true
 }
