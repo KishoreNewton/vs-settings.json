@@ -4,6 +4,11 @@
     "editor.wordWrap": "on",
     "editor.renderIndentGuides": true,
     // "workbench.sideBar.location": "right",
+    "importCost.smallPackageSize": 20,
+    "importCost.mediumPackageSize": 50,
+    "importCost.smallPackageColor": "#54d280",
+    "importCost.mediumPackageColor": "#fcd772",
+    "importCost.largePackageColor": "#de4536",
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontFamily": "Dank Mono",
@@ -13,9 +18,11 @@
     "workbench.editor.enablePreview": true,
     // "BracketHighlighter.fontStyle": "italic",
     "editor.fontLigatures": true,
-    "workbench.iconTheme": "eq-material-theme-icons-ocean",
     "workbench.colorCustomizations": {
         "[Dark hacker theme]": {
+            "editorError.foreground": "#ff0022",
+            "editorWarning.foreground": "#ff0",
+            "editorInfo.foreground": "#00f",
             "editor.background": "#000000",
             "editor.foreground": "#ffffff",
             "editorLineNumber.foreground": "#ffffff",
@@ -57,13 +64,59 @@
     },
     "BracketHighlighter.backgroundColor": "#111111",
     "window.zoomLevel": 0,
-    "editor.fontSize": 15,
     "git.autofetch": true,
-    "[html]": {
+    "editor.largeFileOptimizations": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.largeFileOptimizations": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "tabnine.experimentalAutoImports": true,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "files.associations": {
+        "*.env": "env",
+        "*.js": "javascriptreact"
+    },
+    "cSpell.userWords": [
+        "filname"
+    ],
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "files.autoSave": "off",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "json.maxItemsComputed": 50000000,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "angular.experimental-ivy": true,
+    "workbench.iconTheme": "vscode-great-icons",
+    "material-icon-theme.activeIconPack": "angular",
+    "settingsSync.ignoredExtensions": [
+    
+    ]
 }
